@@ -3,9 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Go Drew, Go Drew</title>
+    <title>Go Drew</title>
 </head>
 <body>
-    <div class="myClass">Yo my man Drew!! You got this bro!</div>
+    <div class="myClass">Add a work out</div>
+    <form method="POST" action='/workout'>
+        <input name="name" type="text" placeholder="Type of work out"></input>
+        <input name="duration" type="text" placeholder="Duration"></input>
+        <input type='submit' value="add">
+      </form>
 </body>
 </html>
